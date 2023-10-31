@@ -1,6 +1,8 @@
-<style scoped>
+<style scoped lang="less">
+@import "../assets/css/theme/custom.less" ;
 .login {
     width: 100vw;
+
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,6 +35,7 @@
 
 .login .login_main .login_main_left h1 {
     color: #ed8b35;
+    color: @primary;
     font-size: 2rem;
     letter-spacing: 6px;
     line-height: 1;
