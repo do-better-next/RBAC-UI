@@ -21,7 +21,7 @@
 .login .login_main .login_main_left {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color: #5c6c84;
+    background-color: @login_bgc;
     padding: 20px;
     width: 50%;
     text-align: center;
@@ -34,7 +34,6 @@
 }
 
 .login .login_main .login_main_left h1 {
-    color: #ed8b35;
     color: @primary;
     font-size: 2rem;
     letter-spacing: 6px;
